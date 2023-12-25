@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MEDICO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="icon" href="photos/logo.jpg">
+    <link href="fontawesome-free-6.4.0-web/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="Dark-mode.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <header class="Home" id="Home">
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#Home" class="Home-link">Home</a></li>
+                    <li><a href="#About" class="About-link">About</a></li>
+                    <li><a href="#Service" class="Service-link">Service</a></li>
+                    <li><a href="#Appointment" class="Appointment-link">Appointment</a></li>
+                    <li><a href="#Feedback" class="Feedback-link">Feedback</a></li>
+                </ul>
+                <div class="mode">
+                    <label for="mode"><i class="fa-solid fa-lightbulb light" style="color:#E1A140"></i></label>
+                    <label for="mode"><i class="fa-solid fa-circle-half-stroke dark" style="color:#b2d8d8"></i></label>
+                    <input type="checkbox" id="mode" hidden aria-hidden>
+                </div>
+            </div>
+        </nav>
+        <div class="home-content">
+            <P>welcome to</P>
+            <h1>MEDICO</h1>
+            <p class="p">we ’</p>
+        </div>
+    </header>
+    <section class="About" id="About">
+        <div class="container">
+            <div class="title">
+            <h1>WHY CHOOSE US !?</h1>
+            <p>Get the care that you deserve by identifying the appropriate physician for your symptoms with our assistance.</p>
+            </div>
+            <div class="why-choose-us">
+            <div class="add">
+                <div class="icon"><i class="fa-solid fa-circle-info fa-2xl"></i></div>
+                    <div class="TRANSPARENCY">
+                    <h3>TRANSPARENCY</h3>
+                    <p>we provide you with all the information you need to make an informed decision about your health care.</p>
+                    </div>
+            </div>
+            <div class="add">
+                <div class="icon"><i class="fa-solid fa-circle-check fa-2xl"></i></div>
+                    <div class="ACCURACY">
+                        <h3>ACCURACY</h3>
+                        <p>our symptom checker helps you decide what type of doctor you need to see.</p>
+                    </div>
+            </div>
+            <div class="add">
+                    <div class="icon"><i class="fa-solid fa-user-doctor fa-2xl"></i></div>
+                        <div class="Database">
+                            <h3>DATABASE OF SPECIALISTS</h3>
+                            <p> our doctor directory includes only licensed and experienced doctors.</p>
+                        </div>
+            </div>
+            <div class="add">
+                        <div class="icon"><i class="fa-solid fa-calendar-days fa-2xl"></i></div>
+                            <div class="Convenience">
+                                <h3>CONVENIENCE</h3>
+                                <p>facilitate booking in a matter of minutes without leaving your home.</p>
+                            </div>
+            </div>
+        </div>
+        </div>
+    </section> 
+    <section class="Service" id="Service">
+        <div class="container">
+            <div class="title">
+                <h1>ENTER YOUR SYMPTOMS</h1>
+                <p>Feelings that you have </p>
+            </div> 
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button class="search-button" onclick="info()" name="btn_search">GO</button>
+            </div>
+            <br>
+            <div class="specialist">
+                <p>YOU SHOULD VISIT AN INTERNIST</p>
+            </div>
+            <br> <br>
+            <h2 class="h2">Recommended Doctors </h2>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="photos/ramy said.jpg">
+                        </div>
+                        <h3>DR/Ramy Said Bayomy</h3>
+                        <p>18 Alkhalifat-Almamun markaz bidaya alduwr 8,Masr elgdida</p>
+                        <p>450 LE</p>
+                        <div class="dr-facebook">
+                            <a href=""> <i class="fa-brands fa-facebook fa-2xl"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="photos/sanaa awad.jpg">
+                        </div>
+                        <h3>DR/Aliaa shabana</h3>
+                        <p>Hasan-Almamun alwafa' walamil abraj zahir burj raqm 3,Nasr city </p>
+                        <p>250 LE</p>
+                        <div class="dr-facebook">
+                            <a href=""> <i class="fa-brands fa-facebook fa-2xl"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="photos/shrief.jpg">
+                        </div>
+                        <h3>DR/Ahmed Mohammed Elsawy</h3>
+                        <p>1 shar3 elmahad eldini borg ela5las,Hadayiq-Almadii</p>
+                        <p>400 LE</p>
+                        <div class="dr-facebook">
+                            <a href=""> <i class="fa-brands fa-facebook fa-2xl"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="appointment" id="Appointment">
+        <div class="container">
+            <div class="title">
+                <h1>SET APPOINTMENT</h1>
+                <p>pick a date that’s suitable for you </p>
+            </div>
+            <form action="index.php" method="get">
+                <div class="form">
+                <form action="index.php" method="get">
+                <label for="name" class="font"> Name : </label>
+                <input type ="text"class="data1" id="name" name="name1">
+                <label for="phone" class="font"> Phone : </label>
+                <input type="number" class="data3" id="phone" name="phone1">
+                <br> <br>  
+                <label for="drname" class="font"> Doctor: </label>
+                <input type="text" class="data2" id="drname" name="doctor">
+                <label for="date" class="font"> Date : </label>
+                <input type="date" class="data5" id="date" name="date">
+                <br> <br>
+                <label for="Specialty" class="font">Specialty : </label>
+                <input type="text" class="data4" id="Specialty" name="Specialty">
+                <label for="time" class="font"> Time : </label>
+                <input type="time" class="data6" id="time" name="time">
+                <br> <br> <br> <br>
+                <button class="set" name="set">SET</button>
+                <br> <br> <br>
+                </form>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="feedback" id="Feedback">
+        <div class="container">
+            <div class="title">
+                <h1>GET IN TOUCH</h1>
+            </div>
+            <div class="bolder">
+                <form action="index.php" method="get"> 
+                    <input type="text" placeholder="NAME" class="name" name="name2">
+                    <input type="number" placeholder="PHONE" class="phone" name="phone2">
+                    <br> <br>
+                    <textarea placeholder="YOUR FEEDBACK...." rows="5" cols="135" class="txt" name="txt"></textarea>
+                    <br> <br> <br> 
+                    <button class="send" name="send">SEND</button>
+                    <br> <br> 
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="foot">
+            <div class="icons">
+            <div>  <i class="fa-brands fa-facebook"></i> </div>
+            <div>  <i class="fa-brands fa-google"></i> </div>
+            <div>  <i class="fa-brands fa-square-instagram"></i> </div>
+            <div>  <i class="fa-brands fa-github"></i>  </div>
+            </div>
+            <div class="copy-right">
+            <p>Copy Right 2023 © By <span class="mariam">Mariam-Magdi</span> All Rights Reserved</p>
+            </div>
+    </footer>
+    
+    
+<script src="javascript.js"></script>
+</body>
+</html>

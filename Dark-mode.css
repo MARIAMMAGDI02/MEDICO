@@ -1,0 +1,139 @@
+body:has(.mode input:checked)  .mode .light{
+    display: block;
+}
+body:has(.mode input:checked) .mode .dark{
+    display: none;
+}
+body:has(.mode input:checked){
+    background-color: black;
+}
+body:has(.mode input:checked) html::-webkit-scrollbar-thumb{
+    background-color:#E1A140 ;
+}
+body:has(.mode input:checked) .title h1{
+    color:#E1A140;
+}
+body:has(.mode input:checked) .title p{
+    color: wheat;
+}
+body:has(.mode input:checked) nav ul li a{
+    color: wheat;
+}
+body:has(.mode input:checked) nav ul li a:hover{
+    color: #E1A140;
+}
+body:has(.mode input:checked) nav ul li a::before{
+    background-color: #E1A140;
+}
+body:has(.mode input:checked) nav ul li a:hover::before{
+    color: #E1A140;
+}
+body:has(.mode input:checked) .Home{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(photos/home-dark.jpg);
+}
+body:has(.mode input:checked) .Home .home-content h1{
+    color:#E1A140;
+}
+body:has(.mode input:checked) .Home .home-content p{
+    color:wheat;
+}
+body:has(.mode input:checked) .add{
+    background-color: white;
+}
+body:has(.mode input:checked) .add:hover{
+    background-color: wheat;
+    .icon i {color: white;
+        box-sizing: border-box;} 
+}
+body:has(.mode input:checked) .icon i{
+    color:#d78c23;
+}
+body:has(.mode input:checked) .search-button{
+    background-color: #d78c23;
+    color: white;
+}
+body:has(.mode input:checked) .search-input::placeholder{
+color: #d78c23;
+}
+body:has(.mode input:checked) .search-button:hover {
+    background:linear-gradient(wheat, #d78c23);
+    color: #E1A140;
+}
+body:has(.mode input:checked) .specialist{
+    background:linear-gradient(wheat, #d78c23);
+}
+body:has(.mode input:checked) .card{
+    background-color: white;
+}
+body:has(.mode input:checked) .card .img-container{
+    background-color: burlywood;
+}
+body:has(.mode input:checked) .card:hover{
+    background:linear-gradient(wheat, #d78c23);
+    color: white;
+}
+body:has(.mode input:checked) .card i{
+    color: burlywood;
+}
+body:has(.mode input:checked) .card:hover i{
+    color: wheat !important;
+}
+body:has(.mode input:checked) .form{
+    background-color: wheat;
+}
+body:has(.mode input:checked) .font{
+    background-color: white;
+    color:#d78c23 ;
+    box-shadow: 4px 4px 4px #d78c23;
+}
+body:has(.mode input:checked) .data{
+    background-color: white;
+    border: #d78c23 solid 3px;
+}
+body:has(.mode input:checked) .set{
+    background-color: #d78c23;
+    border:#d78c23 solid 4px;
+    color: white;
+}
+body:has(.mode input:checked) .set:hover{
+    background-color: white;
+    color: #E1A140;
+}
+body:has(.mode input:checked) .bolder{
+    background-color: white;
+    border: #d78c23 solid 4px;
+    box-shadow: 5px 5px 5px #d78c23;
+}
+body:has(.mode input:checked) .name{
+    border: #d78c23 solid 2px;
+    background-color: #E1A140;
+}
+body:has(.mode input:checked) .phone{
+    border: #d78c23 solid 2px;
+    background-color: #E1A140;
+}
+body:has(.mode input:checked) .txt{
+    border: #d78c23 solid 2px;
+    background-color:#E1A140;
+}
+body:has(.mode input:checked) .send{
+    color: #d78c23;
+    background-color: white;
+    border: #E1A140 solid 4px;
+}
+body:has(.mode input:checked) .send:hover{
+    background-color: #E1A140;
+    color: white;
+}
+body:has(.mode input:checked) .foot{
+    background-color: black;
+}
+body:has(.mode input:checked) .icons i{
+    color: #E1A140;
+}
+body:has(.mode input:checked) .icons i:hover{
+    color: white;
+}
+body:has(.mode input:checked) .mariam{
+    color: #d78c23;
+}
